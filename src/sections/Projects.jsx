@@ -32,6 +32,15 @@ className="text-orange-400"
 Github Repo
 </a>
 
+<a 
+href="https://donation-platform-gv4x.vercel.app/"
+target="_blank"
+rel="noreferrer"
+className="text-orange-400"
+>
+Live Demo
+</a>
+
 </div>
 </motion.div>
 
