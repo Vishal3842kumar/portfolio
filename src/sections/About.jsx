@@ -52,7 +52,7 @@ function About() {
             whileHover={{ scale: 1.05 }}
             className="bg-slate-700 p-6 rounded-lg text-center border border-orange-500 hover:shadow-orange-500/40 hover:shadow-xl transition"
           >
-            <h3 className="text-3xl font-bold text-orange-400">100+</h3>
+            <h3 className="text-3xl font-bold text-orange-400">50+</h3>
             <p className="mt-2 text-gray-300">GitHub Commits</p>
           </motion.div>
 
