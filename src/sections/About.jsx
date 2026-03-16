@@ -28,7 +28,7 @@ function About() {
             whileHover={{ scale: 1.05 }}
             className="bg-slate-700 p-6 rounded-lg text-center border border-orange-500 hover:shadow-orange-500/40 hover:shadow-xl transition"
           >
-            <h3 className="text-3xl font-bold text-orange-400">15+</h3>
+            <h3 className="text-3xl font-bold text-orange-400">5+</h3>
             <p className="mt-2 text-gray-300">Projects Completed</p>
           </motion.div>
 
@@ -36,16 +36,8 @@ function About() {
             whileHover={{ scale: 1.05 }}
             className="bg-slate-700 p-6 rounded-lg text-center border border-orange-500 hover:shadow-orange-500/40 hover:shadow-xl transition"
           >
-            <h3 className="text-3xl font-bold text-orange-400">10+</h3>
+            <h3 className="text-3xl font-bold text-orange-400">3+</h3>
             <p className="mt-2 text-gray-300">Technologies Mastered</p>
-          </motion.div>
-
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            className="bg-slate-700 p-6 rounded-lg text-center border border-orange-500 hover:shadow-orange-500/40 hover:shadow-xl transition"
-          >
-            <h3 className="text-3xl font-bold text-orange-400">2+</h3>
-            <p className="mt-2 text-gray-300">Years Experience</p>
           </motion.div>
 
           <motion.div
@@ -56,7 +48,17 @@ function About() {
             <p className="mt-2 text-gray-300">Certifications</p>
           </motion.div>
 
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-slate-700 p-6 rounded-lg text-center border border-orange-500 hover:shadow-orange-500/40 hover:shadow-xl transition"
+          >
+            <h3 className="text-3xl font-bold text-orange-400">100+</h3>
+            <p className="mt-2 text-gray-300">GitHub Commits</p>
+          </motion.div>
+
         </div>
+
+        
 
       </motion.div>
       </div>
