@@ -32,7 +32,9 @@ function Contact() {
           >
             <FaEnvelope className="text-3xl text-orange-400 mx-auto mb-4" />
             <h3 className="text-xl font-semibold mb-2">Email</h3>
-            <p className="text-gray-400">vishal3842kumar@gmail.com</p>
+            <a href="mailto:vishal3842kumar@gmail.com" className="text-gray-400 hover:text-orange-400 transition">
+              vishal3842kumar@gmail.com
+            </a>
           </motion.div>
 
           <motion.div
@@ -43,7 +45,9 @@ function Contact() {
           >
             <FaPhone className="text-3xl text-orange-400 mx-auto mb-4" />
             <h3 className="text-xl font-semibold mb-2">Phone</h3>
-            <p className="text-gray-400">+91 74083 31266</p>
+            <a href="tel:+917408331266" className="text-gray-400 hover:text-orange-400 transition">
+              +91 74083 31266
+            </a>
           </motion.div>
 
           <motion.div
