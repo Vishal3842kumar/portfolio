@@ -7,6 +7,7 @@ import Education from "./components/Education"
 import Contact from "./sections/Contact"
 import Footer from "./components/Footer"
 import Certifications from "./components/Certifications"
+import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
 return (
@@ -20,6 +21,7 @@ return (
 <Education/>
 <Contact/>
 <Footer/>
+<ScrollToTop/>
 </div>
 )
 }

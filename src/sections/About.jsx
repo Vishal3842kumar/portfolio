@@ -14,29 +14,47 @@ function About() {
           About Me
         </h2>
 
-        <p className="text-gray-300 max-w-2xl mb-10">
-          I am a passionate software developer currently pursuing B.Tech.
-          I enjoy building full stack applications using modern technologies
-          like React, Node.js, and MongoDB. I love solving problems and
-          creating user-friendly applications.
+        <p className="text-gray-300 max-w-3xl mb-12 leading-relaxed">
+          I'm a passionate full-stack developer with expertise in modern web technologies.
+          Currently pursuing B.Tech in Computer Science, I love creating innovative solutions
+          and user-friendly applications. My journey in tech has equipped me with strong
+          problem-solving skills and a keen eye for detail. When I'm not coding, you'll find
+          me exploring new technologies or contributing to open-source projects.
         </p>
 
-        <div className="grid grid-cols-3 gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
 
-          <div className="bg-slate-700 p-6 rounded-lg text-center hover:bg-slate-600 transition">
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-slate-700 p-6 rounded-lg text-center border border-orange-500 hover:shadow-orange-500/40 hover:shadow-xl transition"
+          >
+            <h3 className="text-3xl font-bold text-orange-400">15+</h3>
+            <p className="mt-2 text-gray-300">Projects Completed</p>
+          </motion.div>
+
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-slate-700 p-6 rounded-lg text-center border border-orange-500 hover:shadow-orange-500/40 hover:shadow-xl transition"
+          >
             <h3 className="text-3xl font-bold text-orange-400">10+</h3>
-            <p className="mt-2 text-gray-300">Projects</p>
-          </div>
+            <p className="mt-2 text-gray-300">Technologies Mastered</p>
+          </motion.div>
 
-          <div className="bg-slate-700 p-6 rounded-lg text-center hover:bg-slate-600 transition">
-            <h3 className="text-3xl font-bold text-orange-400">3+</h3>
-            <p className="mt-2 text-gray-300">Technologies</p>
-          </div>
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-slate-700 p-6 rounded-lg text-center border border-orange-500 hover:shadow-orange-500/40 hover:shadow-xl transition"
+          >
+            <h3 className="text-3xl font-bold text-orange-400">2+</h3>
+            <p className="mt-2 text-gray-300">Years Experience</p>
+          </motion.div>
 
-          <div className="bg-slate-700 p-6 rounded-lg text-center hover:bg-slate-600 transition">
-            <h3 className="text-3xl font-bold text-orange-400">1+</h3>
-            <p className="mt-2 text-gray-300">Years Learning</p>
-          </div>
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-slate-700 p-6 rounded-lg text-center border border-orange-500 hover:shadow-orange-500/40 hover:shadow-xl transition"
+          >
+            <h3 className="text-3xl font-bold text-orange-400">5+</h3>
+            <p className="mt-2 text-gray-300">Certifications</p>
+          </motion.div>
 
         </div>
 

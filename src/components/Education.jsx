@@ -16,19 +16,19 @@ function Education() {
 
         <div className="relative max-w-4xl mx-auto">
 
-          {/* Vertical Dotted Line */}
-          <div className="absolute left-1/2 top-0 h-full w-1 bg-orange-500 transform -translate-x-1/2 opacity-50"></div>
-          <div className="absolute left-1/2 top-0 h-full w-1 bg-orange-500 transform -translate-x-1/2 border-dotted border-l-2 border-orange-500"></div>
+          {/* Vertical Dotted Line - Hidden on mobile */}
+          <div className="hidden md:block absolute left-1/2 top-0 h-full w-1 bg-orange-500 transform -translate-x-1/2 opacity-50"></div>
+          <div className="hidden md:block absolute left-1/2 top-0 h-full w-1 bg-orange-500 transform -translate-x-1/2 border-dotted border-l-2 border-orange-500"></div>
 
-          {/* B.Tech LEFT */}
+          {/* B.Tech LEFT - Full width on mobile */}
           <motion.div
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="flex justify-start mb-16 relative"
+            className="flex justify-center md:justify-start mb-16 relative"
           >
-            <div className="absolute left-1/2 w-4 h-4 bg-orange-500 rounded-full transform -translate-x-1/2 -translate-y-2"></div>
-            <div className="bg-slate-800 p-6 rounded-xl border border-orange-500 hover:shadow-orange-500/40 hover:shadow-xl transition w-80 text-right shadow-lg">
+            <div className="hidden md:block absolute left-1/2 w-4 h-4 bg-orange-500 rounded-full transform -translate-x-1/2 -translate-y-2"></div>
+            <div className="bg-slate-800 p-6 rounded-xl border border-orange-500 hover:shadow-orange-500/40 hover:shadow-xl transition w-full md:w-80 text-center md:text-right shadow-lg">
               <FaGraduationCap className="text-orange-400 text-2xl mb-3 mx-auto" />
               <h3 className="text-xl font-semibold text-orange-400">B.Tech</h3>
               <h4 className="text-lg font-medium">Lovely Professional University</h4>
@@ -39,15 +39,15 @@ function Education() {
             </div>
           </motion.div>
 
-          {/* 12th RIGHT */}
+          {/* 12th RIGHT - Full width on mobile */}
           <motion.div
             initial={{ opacity: 0, x: 100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="flex justify-end mb-16 relative"
+            className="flex justify-center md:justify-end mb-16 relative"
           >
-            <div className="absolute right-1/2 w-4 h-4 bg-orange-500 rounded-full transform translate-x-1/2 -translate-y-2"></div>
-            <div className="bg-slate-800 p-6 rounded-xl border border-orange-500 hover:shadow-orange-500/40 hover:shadow-xl transition w-80 text-left shadow-lg">
+            <div className="hidden md:block absolute right-1/2 w-4 h-4 bg-orange-500 rounded-full transform translate-x-1/2 -translate-y-2"></div>
+            <div className="bg-slate-800 p-6 rounded-xl border border-orange-500 hover:shadow-orange-500/40 hover:shadow-xl transition w-full md:w-80 text-center md:text-left shadow-lg">
               <FaGraduationCap className="text-orange-400 text-2xl mb-3 mx-auto" />
               <h3 className="text-xl font-semibold text-orange-400">12th</h3>
               <h4 className="text-lg font-medium">Varanasi Public School</h4>
