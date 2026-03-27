@@ -59,30 +59,42 @@ Live Demo
 <motion.div whileHover={{scale:1.05, y:-5}} className="bg-slate-800 p-6 rounded-xl border border-orange-500 hover:shadow-orange-500/40 hover:shadow-xl transition-all duration-300 group">
 
 <h3 className="text-xl font-bold mb-3 group-hover:text-orange-400 transition-colors">
-Club Membership System
+Leave Management System
 </h3>
 
 <p className="text-gray-400 mb-4">
-Web application to manage club memberships, dues and events.
-Built using HTML, Tailwind CSS, PHP and MySQL.
+Full stack Leave Management System with JWT authentication and role-based access control.
+Built using Spring Boot, MySQL, HTML, CSS, and JavaScript with an interactive dashboard for leave tracking and approval.
 </p>
 
 <div className="flex flex-wrap gap-2 mb-4">
-  <span className="bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full text-sm">PHP</span>
+  <span className="bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full text-sm">Spring Boot</span>
   <span className="bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full text-sm">MySQL</span>
-  <span className="bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
+  <span className="bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full text-sm">HTML</span>
+  <span className="bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full text-sm">CSS</span>
+  <span className="bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full text-sm">JavaScript</span>
 </div>
 
 <div className="flex gap-4">
 
 <a
-href="https://github.com/2Surajagrahari/Club-Membership-System"
+href="https://github.com/Vishal3842kumar/Leave-Management-System"
 target="_blank"
 rel="noreferrer"
 className="text-orange-400 hover:text-orange-300 transition-colors flex items-center gap-1"
 >
 <FaGithub className="text-sm" />
 Github Repo
+</a>
+
+<a
+href="https://leave-management-system-dgsw.onrender.com/#login"
+target="_blank"
+rel="noreferrer"
+className="text-orange-400 hover:text-orange-300 transition-colors flex items-center gap-1"
+>
+<FaExternalLinkAlt className="text-sm" />
+Live Demo
 </a>
 
 </div>

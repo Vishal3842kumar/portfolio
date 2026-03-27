@@ -41,7 +41,7 @@ function Hero() {
           transition={{duration:1, delay:0.4}}
           className="text-4xl sm:text-5xl md:text-6xl font-bold mt-3 bg-gradient-to-r from-white to-orange-200 bg-clip-text text-transparent"
         >
-        Vishal Kumar
+          Vishal Kumar
         </motion.h1>
 
         <motion.h2
